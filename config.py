@@ -7,7 +7,6 @@ class Config(object):
     JWT_SECRET_KEY = 'secret_key'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///feeds.db'
     SQLALCHEMY_TRACK_MODIFICATIONS= True
-    FLASK_ADMIN_SWATCH = 'Darkly'
     COOKIE_SECURE = False
     ACCESS_COOKIE_NAME = 'access_token_cookie'
     REFRESH_COOKIE_NAME = 'refresh_token_cookie'
